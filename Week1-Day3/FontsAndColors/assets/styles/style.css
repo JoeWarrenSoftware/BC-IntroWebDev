@@ -1,0 +1,57 @@
+/* Universal Tag is '*' */
+
+/* Tags will be named by such */
+body {
+    font-family: Arial, Verdana, 'Times New Roman', Georgia, 'Courier New';
+    color: blue;
+    background-color: silver;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Classes start with a '.' */
+.exercise-box {
+    color: rebeccapurple;
+}
+
+/* IDs start with a '#' */
+
+#box1 {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box2 {
+    background-color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#box3 {
+    background-color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#box4 {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#box5 {
+    background-color: lightsalmon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#box6 {
+    background-color: lightpink;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}

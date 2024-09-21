@@ -1,0 +1,49 @@
+/* This is the universal style working on all elements */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* This is an element style working on header1 */
+h1 {
+    color: blue;
+}
+
+/* This is an element style working on paragraphs */
+p {
+    margin: 10px 0;
+}
+
+/* This is an element style working on unordered lists */
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+/* This is an element style working on list items */
+li {
+    margin: 5px 0;
+}
+
+/* This is an element style working on anchors */
+a {
+    color: green;
+}
+
+/* This is a class style working on the elements with class 'Highlight' */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* This is a class style working on the elements with class 'Special' */
+.special {
+    color: purple;
+}
+
+/* This is an ID style working on the element with ID 'uniqueDiv' */
+#uniqueDiv {
+    color: red;
+    font-size: 20px;
+}
