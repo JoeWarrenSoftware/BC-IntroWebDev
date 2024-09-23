@@ -1,0 +1,156 @@
+/* Universal Selector */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    color: lightgray;
+    background-color: #252525;
+}
+
+/* Tag Selector */
+
+header {
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+body {
+    display: grid;
+    margin: 30px;
+}
+
+footer {
+    text-decoration: underline;
+    margin: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 15px;
+    color:rgb(32, 190, 32);
+}
+
+img {
+    width: 20em;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Class Selector */
+
+.about {
+    background-color: #01312b;
+    border-style: dashed;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    background-color: #01312b;
+}
+
+.about h2 {
+    background-color: #00201d;
+}
+
+.projects {
+    background-color: #00220d;
+    border-style: dashed;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects h2 {
+    background-color: #00220d;
+}
+
+.projectbody {
+    display: inline-block;
+    background-color: #013f18;
+    margin: 10px;
+}
+
+.projectbody h3 {
+    background-color: #013f18;
+    margin: 10px;
+}
+
+.projectbody p {
+    background-color: #013f18;
+    margin: 10px;
+}
+
+.contact {
+    background-color: #28503c;
+    border-style: dashed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact h2 {
+    background-color: #1a3527;
+}
+
+.contact form {
+    background-color: #28503c;
+}
+
+.contact label {
+    background-color: #28503c;
+    display: inline-block;
+    margin-left: 10px;
+    width: 80px;
+}
+
+.contact input {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.contact p {
+    background-color: #28503c;
+    display: block;
+    margin: 10px;
+}
+
+.contact a {
+    background-color: #28503c;
+    display: block;
+    margin: 10px;
+}
+
+/* ID Selector */
+
+#headernav {
+    display: inline;
+}
+
+#submit {
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+#submit:hover {
+    background-color: rgb(75, 75, 75);   
+}

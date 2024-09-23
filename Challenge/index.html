@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<header>
+    <h1>Joe Warren Portfolio Page</h1>
+    <div id="headernav">
+        <a href="#about">About Me</a>
+        <a>--</a>
+        <a href="#projects">Projects</a>
+        <a>--</a>
+        <a href="#contact">Contact Me</a>
+    </div>
+</header>
+<body>
+    <main class="about" id="about">
+        <h2>About Me</h2>
+        <p>My name is Joe Warren. I'm a software engineer who has been working with C# .NET to deliver project solutions within the automation and RPA industries. My personal hobbies include discussing music, philosophy and cinema with likeminded folk.</p>
+        <img src="assets/images/ProfilePic.png"></img>
+    </main>
+    <article class="projects" id="projects">
+        <h2>Projects</h2>
+        <article class="projectbody" id="medicalproject">
+            <h3>Medical Research Project</h3>
+            <p>One of the developments I worked on is providing automations for shampoo chemicals so that they can be tested for fluidity and textural properties using various testing machines. It's important that the machines are able to source from a collection of vials stored in an incubator and are appropriately scheduled with handover between device positions using a robot.</p>
+            <img src="assets/images/robot1.jpg"></img>
+        </article>
+        <article class="projectbody"  id="deviceproject">
+            <h3>Device Update Project</h3>
+            <p>This has been an exciting project where it's crucial all devices evolve in a way that is symbiotic with one another by exchanging their data in standard data formations. The project involved each device having an interface that allowed it to act as a node in a network and provided tranformation of it's raw relative data to a universal data format and context that could be used to analyse and compare it's own throughput agaianst other devices in it's local and wider networks and from that understand it's relative performance.</p>
+            <img src="assets/images/robot2.jpg"></img>
+        </article>
+    </article>
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name"></input>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email"></input>
+            <br>
+            <label for="phone">Phone No:</label>
+            <input type="tel"></input>
+            <br>
+            <label for="message">Message:</label>
+            <input type="text" name="message"></input>
+            <br>
+            <input type="button" id="submit" value="Submit"></input>
+        </form>
+        <br>
+        <p>Contact by Email:</p>
+        <a href="mailto:TestEmail@gmail.com">TestEmail@gmail.com</a>
+        <br>
+        <p>Contact by Email:</p>
+        <a href="tel:0800888999">0800 888 999</a>
+    </section>
+</body>
+<footer>
+    Joe Warren Challenge Project - Copyright 2024
+</footer>
+</html>
